@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="telalogin.css" />
+</head>
+<body>
+    <h1>ÁREA RESTRITA</h1>
+    <h4>Informe suas credenciais abaixo para prosseguir</h4>
+    <main>
+        <form action="https://httpbin.org/post" method="post">
+            <div class="form-control">
+              <label for="email">E-mail:</label>
+              <input placeholder="digite seu e-mail" type="email" id="email" name="email" required />
+            </div>
+            <div class="form-control">
+              <label for="senha">Senha:</label>
+              <input placeholder="Digite sua senha" type="password" id="senha" name="senha" required />
+            </div>
+            <div class="row-button">
+              <button type="submit">Enviar</button>
+              <button type="reset">Limpar</button>
+            </div>
+        </form>
+      </main>
+</body>
+</html>
